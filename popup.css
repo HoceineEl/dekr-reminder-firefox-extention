@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    background: linear-gradient(55deg, #7f52e9, #0fe697);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 450px;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.621);
+    transition: transform 0.5s ease-in-out;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid #0fe697;
+    color: #575857;
+}
+
+.input {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #575857;
+    margin-block: 15px;
+}
+
+.input input {
+    color: #575857;
+    border-bottom: 2px solid gray;
+    border-inline: none;
+    border-top: none;
+    font-size: large;
+    font-weight: bold;
+    width: 30px;
+    background: transparent;
+    padding-left: 10px;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+select:focus {
+
+    border-color: #0fe697;
+    outline-color: #0fe697;
+}
+
+p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #424946;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    background: linear-gradient(55deg, #7f52e9, #0fe697);
+    border: none;
+    cursor: pointer;
+    transition: all 1s, transform 0.5s;
+
+}
+
+
+
+button:hover {
+
+    transform: scale(1.02);
+
+}
+
+h1 {
+    color: #0aab70;
+    font-weight: bolder;
+    background: linear-gradient(55deg, #7f52e9, #0fe697);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.infos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.infos a {
+    transition: transform 1s;
+}
+
+.infos a:hover {
+    transform: scale(1.1);
+}
